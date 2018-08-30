@@ -3096,3 +3096,18 @@ paths:
         name: slug
         required: true
         type: string
+        
+definitions:
+  statuses:
+    type: object
+    properties:
+      statuses:
+        type: array
+        items:
+          type: object
+          properties:
+            id:
+              type: number
+            text:
+              type: string
+
