@@ -3118,7 +3118,7 @@ definitions:
                 id:
                   type: number
                 name:
-                  type:string
+                  type: string
             entities:
               type: object
               properties:
