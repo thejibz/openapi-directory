@@ -3109,7 +3109,7 @@ definitions:
           type: object
           properties:
             id:
-              type: number
+              type: integer
             id_str:
               type: string
             text:
@@ -3118,7 +3118,9 @@ definitions:
               type: object
               properties:
                 id:
-                  type: number
+                  type: integer
+                id_str:
+                  type: string
                 name:
                   type: string
                 url:
