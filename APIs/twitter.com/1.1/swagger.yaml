@@ -3112,3 +3112,13 @@ definitions:
               type: number
             text:
               type: string
+            entities:
+              type: object
+              properties:
+                urls:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      url:
+                        type: string
