@@ -3119,6 +3119,8 @@ definitions:
                   type: number
                 name:
                   type: string
+                url:
+                  type: string
             entities:
               type: object
               properties:
