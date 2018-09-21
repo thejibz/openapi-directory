@@ -3110,6 +3110,8 @@ definitions:
           properties:
             id:
               type: number
+            id_str:
+              type: string
             text:
               type: string
             user:
